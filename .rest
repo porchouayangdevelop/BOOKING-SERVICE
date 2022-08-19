@@ -1,0 +1,11 @@
+POST {{hostname}} HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "My first blog",
+    "description": "This is my first blog"
+}
+
+###
+GET {{hostname}} HTTP/1.1
+Content-Type: application/json
